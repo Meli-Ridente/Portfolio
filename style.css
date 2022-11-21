@@ -9,16 +9,20 @@ header {
   height: 300px;
 }
 header h3, header h4, header p {
-  color: #3d5637;
+  color: #97a993;
 }
 header button > a:hover {
   color: white;
 }
 header a {
   text-decoration: none;
-  color: #3d5637;
+  color: #97a993;
 }
 
 .container {
   padding-top: 100px;
 }/*# sourceMappingURL=style.css.map */
+
+a > img {
+  width: 40px;
+}
