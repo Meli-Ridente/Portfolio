@@ -10,7 +10,7 @@ header {
   background-image: url(https://images.pexels.com/photos/5473951/pexels-photo-5473951.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
   background-size: cover;
   width: 100%;
-  height: 400px;
+  height: 350px;
 }
 header h3, header h4, header p {
   color: #97a993;
@@ -28,13 +28,15 @@ header a > img {
 }
 
 .container-nav {
+  margin-left: 160px;
   display: flex;
   position: relative;
-  top: -90px;
-  background-color: #97a993;
-  width: 100%;
+  top: -45px;
+  background-color: #1e2a1b;
+  height: 80px;
+  width: 70%;
   justify-content: space-around;
-  gap: 30px;
+  border-radius: 20px;
 }
 .container-nav p {
   align-items: center;
@@ -42,5 +44,5 @@ header a > img {
   color: white;
 }
 .container-nav img {
-  width: 30px;
+  width: 80px;
 }/*# sourceMappingURL=style.css.map */
