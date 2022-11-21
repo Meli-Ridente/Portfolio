@@ -2,11 +2,15 @@ body {
   background-color: rgb(10, 38, 26);
 }
 
+.container {
+  padding-top: 100px;
+}
+
 header {
   background-image: url(https://images.pexels.com/photos/5473951/pexels-photo-5473951.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
   background-size: cover;
   width: 100%;
-  height: 300px;
+  height: 400px;
 }
 header h3, header h4, header p {
   color: #97a993;
@@ -18,11 +22,25 @@ header a {
   text-decoration: none;
   color: #97a993;
 }
-
-.container {
-  padding-top: 100px;
-}/*# sourceMappingURL=style.css.map */
-
-a > img {
+header a > img {
+  margin-left: 40px;
   width: 40px;
 }
+
+.container-nav {
+  display: flex;
+  position: relative;
+  top: -90px;
+  background-color: #97a993;
+  width: 100%;
+  justify-content: space-around;
+  gap: 30px;
+}
+.container-nav p {
+  align-items: center;
+  opacity: 0.3;
+  color: white;
+}
+.container-nav img {
+  width: 30px;
+}/*# sourceMappingURL=style.css.map */
