@@ -1,5 +1,5 @@
 body {
-  background-color: rgb(10, 38, 26);
+  background-color: #060a06;
 }
 
 .container {
@@ -7,12 +7,12 @@ body {
 }
 
 header {
-  background-image: url(https://images.pexels.com/photos/5473951/pexels-photo-5473951.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+  background-image: url(https://images.pexels.com/photos/207580/pexels-photo-207580.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
   background-size: cover;
   width: 100%;
   height: 350px;
 }
-header h3, header h4, header p {
+header h5, header h1, header p {
   color: #97a993;
 }
 header button > a:hover {
@@ -23,16 +23,17 @@ header a {
   color: #97a993;
 }
 header a > img {
-  margin-left: 40px;
+  margin-left: 20px;
   width: 40px;
 }
 
 .container-nav {
-  margin-left: 160px;
+  margin-left: 200px;
   display: flex;
   position: relative;
   top: -45px;
-  background-color: #1e2a1b;
+  align-items: center;
+  background-color: #060a06;
   height: 80px;
   width: 70%;
   justify-content: space-around;
@@ -44,5 +45,59 @@ header a > img {
   color: white;
 }
 .container-nav img {
-  width: 80px;
+  height: 60px;
+}
+
+.container-central {
+  height: 1000px;
+  display: grid;
+}
+.container-central .about-me {
+  display: flex;
+  background-color: #060a06;
+  justify-content: space-around;
+  align-items: center;
+  position: absolute;
+  width: 900px;
+  border-radius: 20px;
+  border-bottom: 1px solid #97a993;
+  left: 300px;
+}
+.container-central .about-me .about-me-img img {
+  width: 300px;
+  border-radius: 50%;
+}
+.container-central .about-me .about-me-texto {
+  color: #97a993;
+  margin-top: 50px;
+  width: 500px;
+}
+.container-central .about-me .about-me-texto h2 {
+  position: relative;
+  right: -180px;
+  margin-bottom: 50px;
+}
+.container-central .about-me .about-me-texto p {
+  text-justify: justify;
+}
+
+.education {
+  height: 200px;
+  position: absolute;
+  bottom: -400px;
+  left: 20px;
+  border-radius: 20px;
+  border-bottom: 1px solid #97a993;
+  width: 500px;
+}
+.education h2 {
+  color: #97a993;
+  left: 100px;
+  position: absolute;
+}
+.education .lista {
+  color: #97a993;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }/*# sourceMappingURL=style.css.map */
